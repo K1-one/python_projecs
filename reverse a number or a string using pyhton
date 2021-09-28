@@ -1,0 +1,14 @@
+given_num = input('enter a number: ')
+temp_list = ['this']
+temp_list.clear()
+for i in given_num:
+    replacing_element = ""
+    replacing_element += i
+    temp_list.append(replacing_element)
+temp_list.reverse()
+str = ""
+for element in temp_list:
+    str = str + element
+print('this is the rev number', str)
+str = int(str)
+print(str)
